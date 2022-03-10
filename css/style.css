@@ -10,8 +10,6 @@ ocean: #016064
 
 */
 
-
-
 body {
   background-color: lavender;
   font-family:'Nunito', sans-serf;
@@ -27,7 +25,7 @@ h1, h2, h3 {
 
 h1 {
   font-family:'Montserrat';
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: 700;
 }
 
@@ -76,6 +74,7 @@ header {
 
 #hero {
   background-color: lightblue;
+  color: black;
   font-family:'Montserrat';
   font-size: 2em;
   font-weight: 700;
