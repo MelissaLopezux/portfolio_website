@@ -9,7 +9,6 @@ ocean: #016064
 
 
 */
-
 body {
   background-color: #F4EAFB;
   font-family:'Nunito Sans', sans-serf;
@@ -46,17 +45,17 @@ img {
 }
 
 a{
-  color: #ff7f50;
+  color: #016064;
   text-decoration: none;
 }
 
 a:visited {
-  color: #BD93D3;
+  color: black;
 }
 
 a:hover,
 a:focus {       /* a:focus is for accessiility(keyboard) */
-  color: #F1FBFE;
+  color: #016064;
   text-decoration: underline;
 }
 
@@ -64,16 +63,19 @@ a:active {
   color: #016064;
 }
 header {
-  background-color:lightblue;
+  background-color: #F1FBFE;
+  text-align: rigth;
+  padding: 10px;
+  margin: 10px;
 
 }
 
 #contact{
-  background-color: #F4EAFB;
+  background-color: #F1FBFE;
 }
 
 #hero {
-  background-color: lightblue;
+  background-color: #F4EAFB ;
   color: black;
   font-family:'Montserrat';
   font-size: 2em;
@@ -81,16 +83,16 @@ header {
 }
 
 div.a{
-  background-colr: lightblue;
+  background-color: lightblue;
   text-align: center;
-  font-family:'Nunito', sans-serf;
+  font-family:'Nunito Sans', sans-serf;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.5;
   color:black;
 }
 div.b{
-  background-colr: lightblue;
+  background-color: #F1FBFE;
   text-align: left;
   font-family:'Nunito', sans-serf;
   font-size: 16px;
@@ -103,10 +105,10 @@ div.b{
 bc it could get overwritten by deafult or other button styles*/
 .button {
   display: inline-block;
-  background-color: #ff7f50;
-  color: #ffffff; /* to override deafault link color */
-  font-weight: 400px;
-  padding: 10px;
+  background-color: #F4EAFB;
+  color: #016064; /* to override deafault link color */
+  font-weight: 600px;
+  padding: 8px;
   border-radius: 4px;
   border-bottom: 2px solid #016064; /* width/type/color */
   transition: 0.2s opacity;
@@ -123,14 +125,15 @@ bc it could get overwritten by deafult or other button styles*/
 
 .button.contact{
   background-color: transparent;
-  color: #c1f7f6;
-  text-transform: uppercase;
+  color: #016064;
+  text-decoration: none;
   border: 2px solid #016064;
 }
 
 .button.contact:hover {
-  bakcground-color: #c1f7f6;
-  color: #F1FBFE;
+  bakcground-color: #F1FBFE;
+  color: #BD93D3;
+  text-decoration: underline;
 }
 
 .button.contact:active{
@@ -138,19 +141,21 @@ bc it could get overwritten by deafult or other button styles*/
 }
 
 .button.resume{
-  background-color: transparent;
-  color: #C6E5EC;
+  background-color: #F1FBFE;
+  color: #016064;
   text-transform: none;
-  border: 2xpx solid #016064;
+  border-radius: 3px;
+  border-bottom: 2xpx solid #016064;
 }
 
 .button.resume:hover {
   background-color: #c1f7f6;
   color: #BD93D3;
+  text-decoration: underline;
 }
 
 .button.resume:active {
-  color: #F1FBFE;
+  color: #016064;
 }
 
 /*hero section, work section, contact section id selectors */
