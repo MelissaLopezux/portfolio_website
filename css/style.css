@@ -11,11 +11,11 @@ ocean: #016064
 */
 
 body {
-  background-color: lavender;
-  font-family:'Nunito', sans-serf;
+  background-color: #F4EAFB;
+  font-family:'Nunito Sans', sans-serf;
   font-size: 16px;
-  font-weight: 300;
-  line-height: 1.6;
+  font-weight: 400;
+  line-height: 1.5;
   color:black;
 }
 
