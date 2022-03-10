@@ -1,0 +1,157 @@
+/*
+Colors
+pale purple pantone: #F4EAFB
+bluish cyan: #F1FBFE
+smoky black: #12130F
+white smoke: #F5F5F5
+periwinkle: #BD93D3
+ocean: #016064
+
+
+*/
+
+
+
+body {
+  background-color: lavender;
+  font-family:'Nunito', sans-serf;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  color:black;
+}
+
+h1, h2, h3 {
+  line-height: 1.4;
+}
+
+h1 {
+  font-family:'Montserrat';
+  font-size: 2em;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-size: 1.35em;
+  font-weight: 500;
+}
+
+h3{
+  font-family: 'Poppins';
+  font-size: 1em;
+  font-weight: 400;
+}
+
+img {
+  width: 100%
+}
+
+a{
+  color: #ff7f50;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #BD93D3;
+}
+
+a:hover,
+a:focus {       /* a:focus is for accessiility(keyboard) */
+  color: #F1FBFE;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #016064;
+}
+header {
+  background-color:lightblue;
+
+}
+
+#contact{
+  background-color: #F4EAFB;
+}
+
+#hero {
+  background-color: lightblue;
+  font-family:'Montserrat';
+  font-size: 2em;
+  font-weight: 700;
+}
+
+div.a{
+  background-colr: lightblue;
+  text-align: center;
+  font-family:'Nunito', sans-serf;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  color:black;
+}
+div.b{
+  background-colr: lightblue;
+  text-align: left;
+  font-family:'Nunito', sans-serf;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  color:black;
+}
+
+/* make sure this button rule is at the end of the css docuement
+bc it could get overwritten by deafult or other button styles*/
+.button {
+  display: inline-block;
+  background-color: #ff7f50;
+  color: #ffffff; /* to override deafault link color */
+  font-weight: 400px;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 2px solid #016064; /* width/type/color */
+  transition: 0.2s opacity;
+}
+
+.button:hover {
+  opacity: 0.7; /* reduces button opacity to 70% */
+  text-decoration: underline;
+}
+
+.button:active {
+  color: #BD93D3;
+}
+
+.button.contact{
+  background-color: transparent;
+  color: #c1f7f6;
+  text-transform: uppercase;
+  border: 2px solid #016064;
+}
+
+.button.contact:hover {
+  bakcground-color: #c1f7f6;
+  color: #F1FBFE;
+}
+
+.button.contact:active{
+  color: #BD93D3;
+}
+
+.button.resume{
+  background-color: transparent;
+  color: #C6E5EC;
+  text-transform: none;
+  border: 2xpx solid #016064;
+}
+
+.button.resume:hover {
+  background-color: #c1f7f6;
+  color: #BD93D3;
+}
+
+.button.resume:active {
+  color: #F1FBFE;
+}
+
+/*hero section, work section, contact section id selectors */
