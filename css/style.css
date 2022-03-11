@@ -63,13 +63,10 @@ a:active {
   color: #016064;
 }
 header {
-  background-color: #F1FBFE;
-  text-align: rigth;
-  padding: 10px;
-  margin: 10px;
-
+  background-color: #F1FBFE; /* bluish cyan*/
+  text-align: right;
 }
-
+/*hero section, work section, contact section id selectors */
 #contact{
   background-color: #F1FBFE;
 }
@@ -101,13 +98,16 @@ div.b{
   color:black;
 }
 
+/* Layout Styling */
+
+
 /* make sure this button rule is at the end of the css docuement
 bc it could get overwritten by deafult or other button styles*/
 .button {
   display: inline-block;
   background-color: #F4EAFB;
   color: #016064; /* to override deafault link color */
-  font-weight: 600px;
+  font-weight: 600;
   padding: 8px;
   border-radius: 4px;
   border-bottom: 2px solid #016064; /* width/type/color */
@@ -131,7 +131,7 @@ bc it could get overwritten by deafult or other button styles*/
 }
 
 .button.contact:hover {
-  bakcground-color: #F1FBFE;
+  background-color: #F1FBFE;
   color: #BD93D3;
   text-decoration: underline;
 }
@@ -145,7 +145,7 @@ bc it could get overwritten by deafult or other button styles*/
   color: #016064;
   text-transform: none;
   border-radius: 3px;
-  border-bottom: 2xpx solid #016064;
+  border-bottom: 2px solid #016064;
 }
 
 .button.resume:hover {
