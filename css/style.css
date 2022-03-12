@@ -36,13 +36,10 @@ h2 {
 
 h3{
   font-family: 'Poppins';
-  font-size: 1em;
+  font-size: 1.25em;
   font-weight: 400;
 }
 
-img {
-  width: 100%
-}
 
 a{
   color: #016064;
@@ -99,8 +96,12 @@ div.b{
 }
 
 /* Layout Styling */
-
-
+.container {
+  padding: 0 15px;
+}
+.row {
+  margin: 25px 0; /* 25 px top and bottom,0 left and right */
+}
 /* make sure this button rule is at the end of the css docuement
 bc it could get overwritten by deafult or other button styles*/
 .button {
