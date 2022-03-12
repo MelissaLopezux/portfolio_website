@@ -9,6 +9,11 @@ ocean: #016064
 
 
 */
+
+* {
+  box-sizing:border-box;
+}
+
 body {
   background-color: #F4EAFB;
   font-family:'Nunito Sans', sans-serf;
@@ -37,7 +42,7 @@ h2 {
 h3{
   font-family: 'Poppins';
   font-size: 1.25em;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 
@@ -59,31 +64,97 @@ a:focus {       /* a:focus is for accessiility(keyboard) */
 a:active {
   color: #016064;
 }
+
+main {
+  padding-top: 133px;
+}
+
 header {
   background-color: #F1FBFE; /* bluish cyan*/
-  text-align: right;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 4px 4px 1px 2px #F4EAFB;
+  position:fixed;
+  width: 100%;
 }
+
+nav {
+  display: inline-block;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color:#4a4a4a;
+}
+nav > ul > li > a:visited {
+  color: black;
+}
+nav > ul > li > a:hover,
+  a:focus {       /* a:focus is for accessiility(keyboard) */
+  color: #016064;
+  text-decoration: underline;
+}
+nav > ul > li > a:active{
+    color: #016064;
+}
+
 /*hero section, work section, contact section id selectors */
 #contact{
   background-color: #F1FBFE;
 }
 
 #hero {
-  background-color: #F4EAFB ;
+  background-color: #F1FBFE ;
   color: black;
   font-family:'Montserrat';
   font-size: 2em;
-  font-weight: 700;
+  font-weight: 550;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
 }
 
-div.a{
-  background-color: lightblue;
+#hero h1{
+  text-align:center;
+}
+
+#work {
+  background-color: #F4EAFB;
+}
+#work h2{
   text-align: center;
+  font-weight: 600;
+}
+
+#work h3{
+  font-weight: 600;
+}
+
+#work.row{ /*this would aply styling to elements with both ids*/
+  padding-bottom: 25px; border-bottom:1px solid #4a4a4a;
+}
+
+
+div.a{
+  background-color: #F4EAFB;
+  text-align: left;
   font-family:'Nunito Sans', sans-serf;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.5;
   color:black;
+  padding: 0 5px;
 }
 div.b{
   background-color: #F1FBFE;
@@ -94,6 +165,21 @@ div.b{
   line-height: 1.5;
   color:black;
 }
+
+img {
+  width: 100%;
+}
+
+.logo{
+  max-width:250px;
+}
+
+svg{
+  max-width: 25px;
+  display: inline-block;
+  margin: 0 5px;
+}
+
 
 /* Layout Styling */
 .container {
