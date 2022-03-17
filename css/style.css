@@ -112,6 +112,13 @@ nav > ul > li > a:active{
 /*hero section, work section, contact section id selectors */
 #contact{
   background-color: #F1FBFE;
+  text-align: center;
+}
+
+#contact svg{
+  max-width: 25px;
+  display: inline-block;
+  margin: 0 5px;
 }
 
 #hero {
@@ -131,6 +138,7 @@ nav > ul > li > a:active{
 
 #hero h1{
   text-align:center;
+  font-size: 1.5em;
 }
 
 #work {
@@ -179,9 +187,48 @@ img {
 }
 
 svg{
-  max-width: 25px;
+  max-width: 600px;
   display: inline-block;
+  height:auto;
   margin: 0 5px;
+}
+
+@keyframes color-change {
+  from {fill: #edc655;}
+  to {fill:#f76414;}
+}
+
+.sun {
+  animation-duration: 3s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+/*the above code could also be simplified into one line such as:
+.sun
+{ animation: 4s color-change infinite alternate linear;
+-just add a space between the property values.
+}*/
+
+@keyframes cloud-move{
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px, 50px);}
+}
+.cloud-front{
+  animation-duration: 30s; /* 30s to make it go slow */
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes cloud-move-reverse {
+  from {transform: translate(446px, 48px);}
+  to {transform: translate(100px, 48px);}
+}
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
 /* about page */
@@ -191,7 +238,11 @@ svg{
 #about-page h3 {
   margin-top:0;
 }
-
+#about-page picture{
+  max-width: 400px;
+  display: inline-block;
+  margin: 0 5px;
+}
 
 
 
