@@ -66,30 +66,31 @@ a:active {
 }
 
 main {
-  padding-top: 99px;
+  padding-top: 56px;
 }
 
 header {
   background-color: #F1FBFE; /* bluish cyan*/
-  text-align: center;
-  padding: 10px 0;
+  padding: 10px 0 4px; /* added 4px for mobile */
   box-shadow: 4px 4px 1px 2px #F4EAFB;
   position:fixed;
   width: 100%;
+  text-align:left;
 }
 
-nav {
+/*nav {
   display: inline-block;
-}
+} remove so that on mobile, the header has no extra space under the logo when the nav items are hidden*/
 
 nav > ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
-nav > ul > li {
+/*nav > ul > li {
   display: inline-block;
-}
+} remove so that on mobile, the items are listed underneath eachother rather than beside each other*/
 
 nav > ul > li > a {
   padding: 0 15px;
@@ -107,6 +108,33 @@ nav > ul > li > a:hover,
 }
 nav > ul > li > a:active{
     color: #016064;
+}
+
+.navtoggle li:not(:last-child) {
+  display:none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+.navtoggle li .icon{
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+.navtoggle.responsive li {
+  display: block;
+  padding:10px 0;
+  border-top: 1px solid rgba(255,127,80,0.5);
+}
+
+.navtoggle.responsive nav{
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li:last-child{
+  padding: 0 0 10px;
 }
 
 /*hero section, work section, contact section id selectors */
@@ -183,7 +211,7 @@ img {
 }
 
 .logo{
-  max-width:100px;
+  max-width:150px;
 }
 
 svg{
@@ -323,18 +351,33 @@ bc it could get overwritten by deafult or other button styles*/
   padding: 5px;
 }
 
-@media only screen and (min-width: 640px){
+@media only screen and (min-width: 641px){
   header{
     text-align: unset;
     padding: 20px 0 13px;
+  }
+  nav> ul> li{
+    display: inline-block;
   }
   nav{
     width:auto;
     float:right;
     margin-top:4px;
   }
+  nav > ul {
+    margin: 1em 0;
+  }
   .col-md-6 {
     width: 50%;
+  }
+  .logo{
+    min-width:641px;
+  }
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+  .navtoggle li:last-child {
+    display: none;
   }
 }
 @media only screen and (min-width: 1024px){
@@ -348,6 +391,9 @@ bc it could get overwritten by deafult or other button styles*/
     max-width:1200px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .logo{
+    max-width:100px;
   }
 }
 @media only screen and (min-width: 1440px){
