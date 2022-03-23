@@ -11,15 +11,18 @@
   </head>
   <body id="about-page">
     <header>
-      <div>
+      <div class="container">
+        <div class= "navtoggle" id="myNavtoggle">
         <img src="https://via.placeholder.com/150x100?text=My+Logo" class="logo" alt= "Logo">
         <nav>
           <ul>
             <li><a href="index.html" class="button" >Work</a></li>
             <li><a href="about.html" class="button" >About</a></li>
-            <li><a href="#contact" class="button" >Contact</a></li>
+            <li><a href="#contact" class="button" onlclick="menuToggle()" >Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick ="menuToggle()"><i class="fas fa-bars"></i></a></li>
           </ul>
         </nav>
+      </div>
       </div>
     </header>
 <!-- main -->
