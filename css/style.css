@@ -390,6 +390,24 @@ bc it could get overwritten by deafult or other button styles*/
   }
 }
 @media only screen and (min-width: 1024px){
+  main{
+    padding-top: 160px;
+  }
+  header{
+    text-align: unset;
+    padding: 5px 10px 10px;
+  }
+  nav> ul> li{
+    display: inline-block;
+  }
+  nav{
+    width:auto;
+    float:right;
+    margin-top:4px;
+  }
+  nav > ul {
+    margin: 1em 0;
+  }
   .col-lg-7{
     width: 58.33%;
   }
@@ -403,6 +421,15 @@ bc it could get overwritten by deafult or other button styles*/
   }
   .logo{
     max-width:100px;
+  }
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+  .navtoggle li:last-child {
+    display: none;
+  }
+  #hero{
+    border-top: 10px;
   }
 }
 @media only screen and (min-width: 1440px){
