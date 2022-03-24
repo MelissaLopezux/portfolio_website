@@ -17,11 +17,12 @@ ocean: #016064
 body {
   background-color: #F4EAFB;
   font-family:'Nunito Sans', sans-serf;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 1.5;
   color:black;
 }
+
 
 h1, h2, h3 {
   line-height: 1.4;
@@ -29,8 +30,8 @@ h1, h2, h3 {
 
 h1 {
   font-family:'Montserrat';
-  font-size: 2.5em;
-  font-weight: 700;
+  font-size: 2.0em;
+  font-weight: 600;
   margin: .50em;
   padding: 5px;
 }
@@ -72,13 +73,15 @@ main {
 }
 
 header {
-  background-color: #F1FBFE; /* bluish cyan*/
+  background-color: #F4EAFB;
+  background-image: linear-gradient(0deg, #F4EAFB, #F1FBFE, #DCF3FE); /* bluish cyan*/
   padding: 10px 0 4px; /* added 4px for mobile */
   box-shadow: 4px 4px 1px 2px #F4EAFB;
   position:fixed;
   width: 100%;
   text-align:left;
 }
+
 
 /*nav {
   display: inline-block;
@@ -152,11 +155,12 @@ nav > ul > li > a:active{
 }
 
 #hero {
-  background-color: #F1FBFE ;
+  background-color: #F4EAFB;
+  background-image: linear-gradient(0deg, #F4EAFB, #F1FBFE)
   color: black;
   font-family:'Montserrat';
   font-size: 2em;
-  font-weight: 550;
+  font-weight:500;
   text-align:center;
   padding: 5px;
   display: inline-block;
@@ -164,10 +168,11 @@ nav > ul > li > a:active{
 }
 #hero span{
   display: block;
+
 }
 
 #hero h1{
-  text-align:center;
+  text-align: center;
   font-size: 1.5em;
 }
 
@@ -186,6 +191,7 @@ nav > ul > li > a:active{
 #work.row{ /*this would aply styling to elements with both ids*/
   padding-bottom: 25px; border-bottom:1px solid #4a4a4a;
 }
+
 
 
 div.a{
@@ -296,7 +302,9 @@ svg{
 bc it could get overwritten by deafult or other button styles*/
 .button {
   display: inline-block;
+
   background-color: #F4EAFB;
+  background-image: linear-gradient(0deg, #F4EAFB,#F1FBFE);
   color: #016064; /* to override deafault link color */
   font-weight: 600;
   padding: 10px;
@@ -348,6 +356,18 @@ bc it could get overwritten by deafult or other button styles*/
 .button.resume:active {
   color: #016064;
 }
+
+.button.work{  background-color: transparent;
+  color: #black;
+  background-color: #F1FBFE;
+  background-image: linear-gradient(0deg,#F1FBFE, #F4EAFB);
+  text-decoration: none;
+  border-radius: 4px;
+  border: .5px solid #F2E3FD;
+  border-bottom: 2px solid #016064; /* width/type/color */
+  transition: 0.2s opacity;
+}
+
 
 [class*= "col-"]{
   float:left;
