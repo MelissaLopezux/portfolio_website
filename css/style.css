@@ -17,7 +17,7 @@ ocean: #016064
 body {
   background-color: #F4EAFB;
   font-family:'Nunito Sans', sans-serf;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 1.5;
   color:black;
@@ -69,7 +69,7 @@ a:active {
 }
 
 main {
-  padding-top: 98px;
+  padding-top: 95px;
   margin:0;
 }
 
@@ -161,21 +161,22 @@ nav > ul > li > a:active{
   background-image: linear-gradient(0deg, #F4EAFB, #F1FBFE)
   color: black;
   font-family:'Montserrat';
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight:500;
   text-align:center;
-  padding: 5px;
+  padding-top: 6px;
   display: inline-block;
   width: 100%;
 }
 #hero span{
   display: block;
 
+
 }
 
 #hero h1{
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 
 #work {
@@ -280,18 +281,29 @@ svg{
 #about-page picture{
   max-width: 400px;
   display: inline-block;
-  margin: 0 5px;
+  margin: 0 2px;
+}
+#about-page .col-lg-7{
+    width: 58.33%;
+    float: right;
+    display: inline block;
+  }
 }
 
 #olive-page body{
   background-color: #F4EAFB;
+}
+#olive-page picture{
+  max-width: 555px;
+  max-height: 560px;
+  margin: 0 2px;
 }
 
 
 
 /* Layout Styling */
 .container {
-  padding: 10px;
+  padding-top: 10px;
 }
 .row {
   margin: 25px 0; /* 25 px top and bottom,0 left and right */
@@ -380,6 +392,14 @@ bc it could get overwritten by deafult or other button styles*/
 }
 
 @media only screen and (min-width: 641px){
+  body{
+
+      font-family:'Nunito Sans', sans-serf;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 1.5;
+      color:black;
+  }
   main{
     padding-top: 160px;
   }
@@ -415,6 +435,14 @@ bc it could get overwritten by deafult or other button styles*/
   }
 }
 @media only screen and (min-width: 1024px){
+  body{
+
+      font-family:'Nunito Sans', sans-serf;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 1.5;
+      color:black;
+  }
   main{
     padding-top: 160px;
   }
@@ -458,6 +486,14 @@ bc it could get overwritten by deafult or other button styles*/
   }
 }
 @media only screen and (min-width: 1440px){
+  body{
+
+      font-family:'Nunito Sans', sans-serf;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 1.5;
+      color:black;
+  }
   main{
     padding-top: 160px;
   }
