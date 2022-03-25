@@ -269,6 +269,7 @@ svg{
 /* about page */
 #about-page {
   background-color: #F1FBFE;
+  background-image: linear-gradient(0deg,#F1FBFE, #F4EAFB);
 
 }
 #about-page h3 {
