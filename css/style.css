@@ -18,7 +18,7 @@ body {
   background-color: #F4EAFB;
   font-family:'Nunito Sans', sans-serf;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.5;
   color:black;
   margin: 0px, 4px, 1px;
@@ -51,7 +51,7 @@ h3{
 h5{
   font-family:'Poppins'
   font-size: 1.1em;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 a{
