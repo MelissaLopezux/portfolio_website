@@ -84,13 +84,13 @@ main {
 header {
   background-color: #F4EAFB;
   background-image: linear-gradient(0deg, #F4EAFB, #F1FBFE, #DCF3FE); /* bluish cyan*/
-  paddinig: 0px 8px 0; /* added 4px for mobile */
+  paddinig: 0px 2px 0; /* added 4px for mobile */
   box-shadow: 4px 4px 1px 2px #F4EAFB;
   font-weight:400;
   position:fixed;
   width: 100%;
-  margin: 0 1px 0px;
-
+  border-right: 4px;
+  margin-right:4px;
 
 }
 
