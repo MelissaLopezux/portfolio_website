@@ -76,7 +76,7 @@ a:active {
 
 main {
   padding-top: 95px;
-  margin:0 4px 0;
+  margin:0 7px 0;
   font-size: 16px;
 }
 
@@ -296,7 +296,9 @@ svg{
 #about-page picture{
   max-width: 400px;
   display: inline-block;
-  margin: 0 2px 2px;
+  margin-left: 15px;
+  margin-right: 10px;
+
 }
 #about-page .col-lg-7{
     width: 58.33%;
