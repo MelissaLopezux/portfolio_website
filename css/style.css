@@ -76,7 +76,7 @@ a:active {
 }
 
 main {
-  padding-top: 125px;
+  padding-top: 135px;
   margin:0 7px 0;
   font-size: 16px;
 }
@@ -143,12 +143,12 @@ nav > ul > li > a:active{
 }
 .navtoggle.responsive li {
   display: block;
-  padding:10px 0;
+  padding:7px 0;
   border-top: 1px solid #016064;
 }
 
 .navtoggle.responsive nav{
-  padding: 24px 0 0;
+  padding: 10px 0 0;
 }
 .navtoggle.responsive li:last-child{
   padding: 0 0 10px;
@@ -313,6 +313,9 @@ svg{
 
 #olive-page body{
   background-color: #F4EAFB;
+}
+#olive-page main{
+  padding-top: 10px;
 }
 #olive-page picture{
   max-width: 555px;
