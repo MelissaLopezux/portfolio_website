@@ -32,7 +32,7 @@ h1, h2, h3 {
 h1 {
   font-family:'Montserrat';
   font-size: 2.0em;
-  font-weight: 500;
+  font-weight: 535;
   margin: .50em;
   padding: 4px;
 }
@@ -48,7 +48,11 @@ h3{
   font-size: 1.25em;
   font-weight: 500;
 }
-
+h5{
+  font-family:'Poppins'
+  font-size: 1.1em;
+  font-weight: 400;
+}
 
 a{
   color: #016064;
@@ -57,6 +61,7 @@ a{
 
 a:visited {
   color: black;
+  text-decoration: none;
 }
 
 a:hover,
@@ -71,20 +76,20 @@ a:active {
 
 main {
   padding-top: 95px;
-  margin:0;
+  margin:0 4px 0;
   font-size: 16px;
 }
 
 header {
   background-color: #F4EAFB;
   background-image: linear-gradient(0deg, #F4EAFB, #F1FBFE, #DCF3FE); /* bluish cyan*/
-  padding: 3px 4px 1px; /* added 4px for mobile */
+  padding: 3px 3px 1px; /* added 4px for mobile */
   box-shadow: 4px 4px 1px 2px #F4EAFB;
   font-weight:400;
   position:fixed;
   width: 100%;
-  margin-bottom: 2px;
-  margin-top:0;
+  margin: 0 2px 2px;
+
 
 }
 
@@ -151,6 +156,7 @@ nav > ul > li > a:active{
 /*hero section, work section, contact section id selectors */
 #contact{
   background-color: #F1FBFE;
+  background-image: linear-gradient(0deg,#F1FBFE, #F4EAFB);
   text-align: center;
 }
 
@@ -290,7 +296,7 @@ svg{
 #about-page picture{
   max-width: 400px;
   display: inline-block;
-  margin: 0 2px;
+  margin: 0 2px 2px;
 }
 #about-page .col-lg-7{
     width: 58.33%;
@@ -330,9 +336,10 @@ bc it could get overwritten by deafult or other button styles*/
   display: inline-block;
 
   background-color: #F4EAFB;
-  background-image: linear-gradient(0deg, #F4EAFB,#F1FBFE);
+  background-image: linear-gradient(0deg, #F4EAFB,#F4EAFB,#F1FBFE,#F1FBFE);
   color: #016064; /* to override deafault link color */
   font-weight: 600;
+  text-decoration:none;
   padding: 8px;
   border-radius: 4px;
   border-bottom: 2px solid #016064; /* width/type/color */
@@ -349,10 +356,12 @@ bc it could get overwritten by deafult or other button styles*/
 }
 
 .button.contact{
-  background-color: transparent;
-  color: #016064;
+  background-color: #F4EAFB;
+  background-image: linear-gradient(0deg, #F4EAFB,#F4EAFB,#F1FBFE);
   text-decoration: none;
-  border: 2px solid #016064;
+  border-radius: 6px;
+  border: 1.45px solid #E8D9F3;
+  border-bottom: 1.5px solid #BD93D3;
 }
 
 .button.contact:hover {
@@ -389,7 +398,7 @@ bc it could get overwritten by deafult or other button styles*/
   background-image: linear-gradient(0deg,#F1FBFE, #F4EAFB);
   text-decoration: none;
   border-radius: 4px;
-  border: .5px solid #F2E3FD;
+  border: 1.25px solid #E8D9F3;
   border-bottom: 2px solid #016064; /* width/type/color */
   transition: 0.2s opacity;
 }
@@ -431,7 +440,7 @@ bc it could get overwritten by deafult or other button styles*/
     width: 50%;
   }
   .logo{
-    min-width:150px;
+    min-width:100px;
   }
   .navtoggle li:not(:last-child) {
     display: inline-block;
@@ -458,6 +467,7 @@ bc it could get overwritten by deafult or other button styles*/
   header{
     text-align: unset;
     padding: 5px 10px 10px;
+    margin: 0 2px 0 2px
   }
   nav> ul> li{
     display: inline-block;
