@@ -32,7 +32,7 @@ h1, h2, h3 {
 
 h1 {
   font-family:'Montserrat';
-  font-size: 2.0em;
+  font-size: 1.8em;
   font-weight: 520;
   margin: .50em;
   padding: 4px;
@@ -187,8 +187,8 @@ nav > ul > li > a:active{
 
 #hero h1{
   text-align: center;
-  font-size: 1.5em;
-  font-weight:540;
+  font-size: 1.4em;
+  font-weight:530;
 }
 #hero p{
   font-size: 1em;
@@ -200,6 +200,7 @@ nav > ul > li > a:active{
 }
 #work h1{
   text-align: center;
+  font-weight:
 }
 #work h2{
   text-align: center;
@@ -238,6 +239,7 @@ div.b{
 
 img {
   width: 100%;
+  border-radius: 4px;
 }
 
 .logo{
@@ -302,7 +304,10 @@ svg{
   display: inline-block;
   margin-left: 15px;
   margin-right: 10px;
-
+  border-radius:50%;
+}
+#about-page img{
+  border-radius: 55%;
 }
 #about-page .col-lg-7{
     width: 58.33%;
