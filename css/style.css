@@ -218,14 +218,15 @@ nav > ul > li > a:active{
 
 
 div.a{
-  background-color: #F4EAFB;
-  text-align: left;
+
+
   font-family:'Nunito Sans', sans-serf;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.5;
   color:black;
   padding: 0 5px;
+  max-width: 40%;
 }
 div.b{
   background-color: #F1FBFE;
@@ -314,6 +315,11 @@ svg{
     float: right;
     display: inline block;
   }
+}
+#about-text-width div.a {
+  width:30%;
+  float: right;
+}
 }
 
 #olive-page body{
