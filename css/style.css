@@ -41,7 +41,7 @@ h1 {
 h2 {
   font-family: 'Montserrat';
   font-size: 1.35em;
-  font-weight: 500;
+  font-weight: 520;
 }
 
 h3{
@@ -84,14 +84,13 @@ main {
 header {
   background-color: #F4EAFB;
   background-image: linear-gradient(0deg, #F4EAFB, #F1FBFE, #DCF3FE); /* bluish cyan*/
-  paddinig: 0px 2px 0; /* added 4px for mobile */
+  padding: 0px 4px 0; /* added 4px for mobile */
   box-shadow: 4px 4px 1px 2px #F4EAFB;
   font-weight:400;
   position:fixed;
   width: 100%;
-  border-right: 4px;
-  margin-right:4px;
-
+  border-right: 2px;
+  margin-right:2px;
 }
 
 
@@ -166,6 +165,16 @@ nav > ul > li > a:active{
   display: inline-block;
   margin: 0 5px;
 }
+#contact2 {
+  background-color: #F4EAFB;
+  background-image: linear-gradient(0deg, #F4EAFB, #F1FBFE);
+  text-align: center;
+}
+#contact2 svg{
+  max-width: 25px;
+  display: inline-block;
+  margin: 0 5px;
+}
 
 #hero {
   background-color:#F4EAFB;
@@ -218,7 +227,6 @@ nav > ul > li > a:active{
 
 
 div.a{
-
 
   font-family:'Nunito Sans', sans-serf;
   font-size: 16px;
@@ -307,6 +315,12 @@ svg{
   margin-right: 10px;
   border-radius:50%;
 }
+#about-page footer{
+  background-color: #F4EAFB;
+  background-image: linear-gradient(0deg, #F4EAFB, #F1FBFE);
+  text-align: center;
+}
+
 #about-page img{
   border-radius: 55%;
 }
@@ -338,8 +352,41 @@ svg{
 
 /* Layout Styling */
 .container {
-  padding-top: 10px;
+  padding:10px 8px 0;
 }
+.container h4{
+  text-align: center;
+}
+
+.container2{
+  padding: 0 10px 0;
+  margin: 0 4px 0;
+}
+
+.container3{
+  padding: 4px 10px 0;
+  margin: 0 4px 0;
+}
+.container3 ul{
+  display: table;
+  margin: 0 auto;
+}
+.container3 h2{
+  text-align: center;
+}
+
+.iceberg{
+  background-color: #DEF3EF;
+  padding: 5px 0 5px;
+}
+.blueback{
+  background-color: #F1FBFE;
+  padding: 5px 0 5px;
+}
+.right{
+  float: right;
+}
+
 .row {
   margin: 25px 0; /* 25 px top and bottom,0 left and right */
 }
@@ -354,7 +401,6 @@ svg{
 bc it could get overwritten by deafult or other button styles*/
 .button {
   display: inline-block;
-
   background-color: #F4EAFB;
   background-image: linear-gradient(0deg, #F4EAFB,#F4EAFB,#F1FBFE,#F1FBFE);
   color: #016064; /* to override deafault link color */
