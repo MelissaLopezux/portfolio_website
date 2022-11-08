@@ -51,7 +51,7 @@ h3{
 }
 h5{
   font-family:'Poppins'
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 300;
 }
 
@@ -184,9 +184,9 @@ nav > ul > li > a:active{
   font-size: 1.5em;
   font-weight:500;
   text-align:center;
-  padding-top: 50px;
-  padding-right: 50px;
-  padding-bottom: 50px;
+  padding-top: 10px;
+  padding-right: 80px;
+  padding-bottom: 20px;
   padding-left: 80px;
   display: inline-block;
   width: 100%;
@@ -199,9 +199,15 @@ nav > ul > li > a:active{
 
 #hero h1{
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1.6em;
   font-weight:530;
 }
+
+#hero h5{
+  text-align: left;
+  font-weight: 400;
+}
+
 #hero p{
   font-size: 1em;
 }
@@ -355,7 +361,7 @@ svg{
 
 /* Layout Styling */
 .container {
-  padding:30px 20px 20px;
+  padding:20px 20px 10px;
 }
 .container h4{
   text-align: center;
@@ -386,6 +392,13 @@ svg{
 .container5 img{
   width: 330;
   height: auto;
+}
+
+.container6 {
+  padding: 10px 0px 10px;
+}
+.container7 {
+  padding: 0 35px 5px;
 }
 
 .iceberg{
