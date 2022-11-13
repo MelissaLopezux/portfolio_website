@@ -382,6 +382,7 @@ svg{
 /* Layout Styling */
 .container {
   padding:20px 5px 10px;
+  margin-left: 10px;
 }
 .container h4{
   text-align: center;
@@ -418,7 +419,7 @@ svg{
   padding: 10px 16px 10px;
 }
 .container7 {
-  padding: 0 35px 5px;
+  padding: 0 30px 5px;
 }
 .container09{
   padding: 0 10px 0;
