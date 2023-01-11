@@ -35,7 +35,7 @@ h1 {
   font-size: 1.7em;
   font-weight: 530;
   margin: .50em;
-  padding: 4px;
+  padding: 2px;
 }
 
 h2 {
@@ -381,7 +381,7 @@ svg{
 
 /* Layout Styling */
 .container {
-  padding:20px 5px 10px;
+  padding:20px 4px 10px;
   margin-left: 5px;
 }
 .container h4{
