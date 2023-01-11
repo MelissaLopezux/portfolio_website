@@ -657,7 +657,7 @@ bc it could get overwritten by deafult or other button styles*/
     width: 41.66%;
   }
   .container{
-    max-width:1200px;
+    max-width:1400px;
     margin-left: auto;
     margin-right: auto;
   }
